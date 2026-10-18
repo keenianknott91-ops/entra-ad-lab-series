@@ -43,7 +43,7 @@ Build out the Cove Harbor Logistics directory, organize it with groups, and work
 
 ![Cove Harbor Logistics groups, including the dynamic DG-Finance-Auto and DG-Baltimore-Auto groups (object IDs redacted)](screenshots/groups-list.png)
 
-![Group membership blade](screenshots/group-members.png)
+*Screenshot of the group membership blade to be added.*
 
 **4. Dynamic membership**
 
@@ -55,7 +55,7 @@ Rule used:
 
 Membership populated automatically from the department attribute rather than manual assignment. Dynamic evaluation is not instantaneous — membership took several minutes to reflect after the rule was saved.
 
-![Dynamic membership rule syntax](screenshots/dynamic-rule.png)
+*Screenshot of the dynamic membership rule to be added.*
 
 ---
 
@@ -127,7 +127,7 @@ Requested a change of the UPN and primary SMTP address to `praman-osei@covehl.on
 **Why this split**
 Display name is what colleagues see, so updating it resolves the visible problem immediately at no authentication risk. The UPN is the sign-in name, and changing it is a coordinated change rather than a silent edit. Worth noting that the UPN and the primary email address are separate attributes — changing one does not change the other.
 
-![Updated display name and surname on the user profile](screenshots/ticket-2042-name-change.png)
+*Screenshot of the updated display name and surname to be added.*
 
 ---
 
