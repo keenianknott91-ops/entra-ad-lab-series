@@ -24,8 +24,8 @@ Everything here was built and broken in a personal lab tenant. Each lab includes
 
 | # | Lab | Status |
 | --- | --- | --- |
-| 01 | [Environment Setup](./lab-01-environment-setup/) — tenant provisioning, admin hardening, break-glass account | ✅ Complete |
-| 02 | Users & Groups — manual and bulk provisioning, security vs M365 vs dynamic groups | ✅ Complete |
+| 01 | Environment Setup — tenant provisioning, admin hardening, break-glass account | ✅ Complete (write-up not yet published) |
+| 02 | [Users & Groups](./lab-02-users-and-groups/) — manual and bulk provisioning, security vs M365 vs dynamic groups, four lifecycle tickets | ✅ Complete |
 | 03 | Password Resets & MFA — SSPR, admin-initiated resets, MFA registration | ⬜ Not started |
 | 04 | Group Policy — on-premises GPO configuration | ⬜ Not started |
 | 05 | Licensing — license assignment, group-based licensing | ⬜ Not started |
@@ -49,13 +49,21 @@ Everything here was built and broken in a personal lab tenant. Each lab includes
 
 ## Skills demonstrated
 
-- Microsoft Entra ID administration (users, groups, roles, authentication methods)
-- Active Directory Domain Services
-- Identity lifecycle management: onboarding, transfers, offboarding
-- Multi-factor authentication and self-service password reset
-- Conditional Access policy design
-- Hybrid identity synchronization
+**Shown in completed labs (Lab 02):**
+
+- Microsoft Entra ID user administration: manual and bulk CSV user creation, user attributes
+- Groups: security, Microsoft 365, nested, and dynamic (attribute-based) membership
+- Identity lifecycle tickets: onboarding, name change, termination (block sign-in, revoke sessions), transfer
+- Knowing what is Tier 1 scope and escalating the rest to Tier 2 with clear notes
 - Help desk ticket workflows and documentation
+
+**Planned (later labs):**
+
+- Self-service password reset and MFA registration (Lab 03)
+- Group Policy on on-premises Active Directory (Lab 04)
+- Licensing and group-based licensing (Lab 05)
+- Conditional Access policy design (Lab 06)
+- Hybrid identity synchronization with Entra Connect (Lab 07)
 
 ---
 
